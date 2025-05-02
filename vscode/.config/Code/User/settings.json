@@ -1,0 +1,35 @@
+{
+  // YAML schema association (you already have this)
+  "yaml.schemas": {
+    "kubernetes": "*.yaml"
+  },
+
+  // Format with Prettier
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+
+  // Telemetry off (already good)
+  "telemetry.feedback.enabled": false,
+  "telemetry.telemetryLevel": "off",
+
+  // UI Tweaks
+  "workbench.startupEditor": "none",
+  "workbench.colorTheme": "Default Dark Modern",
+  "workbench.iconTheme": "vscode-icons",
+
+  // Editor Behavior
+  "files.trimTrailingWhitespace": true,
+  "files.insertFinalNewline": true,
+  "files.autoSave": "onFocusChange",
+
+  // Terminal
+  "terminal.integrated.defaultProfile.linux": "zsh",
+
+  // Git
+  "git.autofetch": true,
+  "git.confirmSync": false,
+  "git.enableSmartCommit": true,
+
+  // Extensions (recommended format)
+  "extensions.ignoreRecommendations": false
+}
