@@ -10,5 +10,6 @@ export PATH="$HOME/.cargo/bin:$PATH"
 fpath=(${ASDF_DATA_DIR:-$HOME/.asdf}/completions $fpath)
 autoload -Uz compinit && compinit
 
-export SSH_AUTH_SOCK=/run/user/1000/ssh-agent.socket
+export SSH_AUTH_SOCK=$(find /run/user/$UID -type s -name 'ssh-agent*' 2>/dev/null | head -n 1)
+
 
