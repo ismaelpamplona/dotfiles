@@ -1,0 +1,1 @@
+# manage_gopass_nanorc (Issue)
