@@ -12,4 +12,8 @@ autoload -Uz compinit && compinit
 
 export SSH_AUTH_SOCK=$(find /run/user/$UID -type s -name 'ssh-agent*' 2>/dev/null | head -n 1)
 
+export EDITOR="nano"
+export VISUAL="nano"
+
+
 
